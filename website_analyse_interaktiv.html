@@ -240,6 +240,41 @@
       padding: 6px 14px; border-radius: 20px; margin-bottom: 16px;
     }
 
+    /* ══ HERO PREVIEW RESPONSIVE ═════════════════════════════ */
+    @media (max-width: 1023px) {
+      .hero-preview-section { padding: 56px 16px; }
+      .browser-frame { border-radius: 10px; }
+      .bh-nav { padding: 0 18px; height: 44px; }
+      .bh-nav-links li:nth-child(1),
+      .bh-nav-links li:nth-child(2),
+      .bh-nav-links li:nth-child(3),
+      .bh-nav-links li:nth-child(4) { display: none; }
+      .bh-nav-cta { display: none; }
+      .bh-hero { padding: 32px 24px 28px; min-height: 260px; }
+      .bh-hero h1 { font-size: 20px; }
+      .bh-hero-sub { font-size: 12px; }
+      .bh-stripe { gap: 14px; padding: 8px 16px; flex-wrap: nowrap; overflow: hidden; }
+      .bh-stripe-item { font-size: 9px; }
+    }
+
+    @media (max-width: 767px) {
+      .hero-preview-section { padding: 40px 12px; }
+      .browser-frame__bar { padding: 8px 10px; }
+      .browser-dots span { width: 8px; height: 8px; }
+      .browser-url { font-size: 9px; padding: 4px 8px; }
+      .browser-badge { display: none; }
+      .bh-nav { padding: 0 14px; height: 40px; }
+      .bh-nav-logo { font-size: 10px; }
+      .bh-nav-links { display: none; }
+      .bh-hero { padding: 24px 16px 22px; min-height: 220px; }
+      .bh-hero h1 { font-size: 16px; line-height: 1.25; margin-bottom: 8px; }
+      .bh-eyebrow { font-size: 7px; margin-bottom: 8px; }
+      .bh-hero-sub { font-size: 10px; line-height: 1.6; margin-bottom: 14px; max-width: 100%; }
+      .bh-hero-actions { gap: 6px; }
+      .bh-btn-primary, .bh-btn-outline { padding: 7px 12px; font-size: 8px; letter-spacing: 0.8px; }
+      .bh-stripe { display: none; }
+    }
+
     /* ══ 4 · PROBLEM SECTIONS ═════════════════════════════════ */
     .problems-section { padding: 0; }
     .problem-item {
@@ -1216,13 +1251,9 @@
     </p>
 
     <div class="closing__cta-group reveal reveal-delay-3">
-      <a href="https://amaeding80.github.io/hero_privatpraxis_bogenhausen/website_analyse_interaktiv.html" target="_blank" class="cta-primary">
+      <a href="https://amaeding80.github.io/hero_privatpraxis_bogenhausen/" target="_blank" class="cta-primary">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
         Live-Vorschau ansehen
-      </a>
-      <a href="https://amaeding80.github.io/hero_privatpraxis_bogenhausen" target="_blank" class="cta-primary">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-        Neue Website ansehen
       </a>
       <a href="mailto:anfrage@praxisecht.de?subject=Anpassung%20meiner%20Webseite%20%2F%20neue%20Webseite" class="cta-ghost">Anfrage stellen</a>
     </div>
